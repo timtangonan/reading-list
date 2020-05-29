@@ -27,15 +27,15 @@ const AddBook = () => {
             <form onSubmit={onSubmit} className="form">
                 <div className="form-category">
                     <label className="form-label">Title</label>
-                    <input type="text" value={title} onChange={e => setTitle(e.currentTarget.value)}></input>
+                    <input required type="text" value={title} onChange={e => setTitle(e.currentTarget.value)}></input>
                 </div>
                 <div className="form-category">
                     <label className="form-label">Author</label>
-                    <input type="text" value={author} onChange={e => setAuthor(e.currentTarget.value)}></input>
+                    <input required type="text" value={author} onChange={e => setAuthor(e.currentTarget.value)}></input>
                 </div>
                 <div className="form-category">
                     <label className="form-label">Genre</label>
-                    <input type="text" value={genre} onChange={e => setGenre(e.currentTarget.value)}></input>
+                    <input required type="text" value={genre} onChange={e => setGenre(e.currentTarget.value)}></input>
                 </div>
                 <button>Add Book</button>
             </form>

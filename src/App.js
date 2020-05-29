@@ -6,8 +6,8 @@ import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div className="app-overlay">
+      <div className="App">
         <Panel />
       </div>
     </div>

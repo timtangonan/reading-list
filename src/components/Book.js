@@ -23,7 +23,7 @@ const Book = ({ title, author, genre, id }) => {
                 {/* <p>{id}</p> */}
             </div>
             <div>
-                <button className="book-done" onClick={() => {handleDelete(id)}}><span className="completed-icon" role="img" aria-label="done">👍</span></button>
+                <button className="book-done" onClick={() => {handleDelete(id)}}><span className="completed-icon" role="img" aria-label="done">✓</span></button>
             </div>
         </div>
     )

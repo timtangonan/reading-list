@@ -10,7 +10,8 @@
 }
 
 .book-info > h3 {
-    font-size: 1em;
+    font-family: Arvo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .85em;
     padding: 0.2em 0;
 }
 
@@ -19,9 +20,14 @@
     padding: 0.1em 0;
 }
 
+.book-container button {
+    margin: 0;
+    padding: 0;
+}
+
 .book-done {
     width: 1.5em;
-    height: 1.5em;
+    height: auto;
     background-color: #333;
 
 }
@@ -29,9 +35,11 @@
 .completed-icon {
     display: block;
     background-color: #333;
+    color: lime;
     margin: 0;
     padding: 0;
-    height: 100%;;
+    height: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 450px) {

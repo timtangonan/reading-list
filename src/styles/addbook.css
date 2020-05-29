@@ -19,7 +19,7 @@
 }
 
 label {
-    width: 40%;
+    width: 25%;
 }
 
 input {
@@ -33,6 +33,9 @@ button {
     width: 50%;
     align-self: center;
     border: 0;
+    font-family: Arvo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 @media (min-width: 450px) {
