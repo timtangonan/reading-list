@@ -1,0 +1,41 @@
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em;
+    margin-bottom: 0.2em;
+}
+
+.book-info > h3, p {
+    margin: 0;
+}
+
+.book-info > h3 {
+    font-size: 1em;
+    padding: 0.2em 0;
+}
+
+.book-info > p {
+    font-size: 0.8em;
+    padding: 0.1em 0;
+}
+
+.book-done {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #333;
+
+}
+
+.completed-icon {
+    display: block;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;;
+}
+
+@media (min-width: 450px) {
+    .book-container {
+        padding: 0.4em 1em;
+    }
+}

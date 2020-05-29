@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react"
 import firebase from "../firebase"
 
+import "../styles/booklist.css"
+
 import Book from "./Book"
 
 const useBooks = () => {
@@ -24,7 +26,7 @@ const useBooks = () => {
 const BookList = () => {
     const books = useBooks()
     return(
-        <div>
+        <div className="book-list">
             {books.map((book) => <Book key={book.id} title={book.title} author={book.author} genre={book.genre} id={book.id}/>)}
         </div>
     )

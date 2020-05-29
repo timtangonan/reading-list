@@ -2,10 +2,14 @@ import React from "react"
 import AddBook from "./AddBook"
 import BookList from "./BookList"
 
+import "../styles/panel.css"
+
 const Panel = () => {
     return(
         <div className="panel">
-            <h1>Test</h1>
+            <div className="title-container">
+                <h1 class="app-title">Reading List <span role="img" aria-label="books">📚</span></h1>
+            </div>
             <AddBook />
             <BookList />
         </div>

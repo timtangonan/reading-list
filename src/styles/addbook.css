@@ -1,0 +1,46 @@
+.form-container {
+    padding: 1em 0;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px dashed rgba(255, 255, 255, 0.4);
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.4);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.form-category {
+    padding: .2em 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 40%;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+}
+
+button {
+    padding: 0.2em 0;
+    margin: 0.4em 0;
+    width: 50%;
+    align-self: center;
+    border: 0;
+}
+
+@media (min-width: 450px) {
+    .form-category {
+        flex-direction: row;
+    }
+
+    button {
+        width: 100%
+    }
+}
