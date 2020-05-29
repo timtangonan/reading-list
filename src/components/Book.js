@@ -15,7 +15,7 @@ const handleDelete = (id) => {
 
 const Book = ({ title, author, genre, id }) => {
     return(
-        <div className="book-container" style={{display: 'flex', border: '1px solid gray'}}>
+        <div className="book-container">
             <div className="book-info">
                 <h3>{title}</h3>
                 <p>{author}</p>
